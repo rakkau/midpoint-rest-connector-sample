@@ -38,7 +38,7 @@
                <outbound>
                   <tolerant>false</tolerant>
                   <expression>
-                     <associationFromLink xsi:type="c:AssociationFromLinkExpressionEvaluatorType">
+                     <associationFromLink>
                         <projectionDiscriminator>
                            <kind>entitlement</kind>
                            <intent>group</intent>
