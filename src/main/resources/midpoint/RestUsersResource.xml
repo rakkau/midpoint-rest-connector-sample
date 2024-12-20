@@ -1,11 +1,10 @@
 <resource xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3"
-	xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3"
 	xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3"
 	xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3"
 	xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3"
 	xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3"
 	xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3"
-	xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	oid="702ecc89-deba-4542-9618-5b9c8ba94abe" version="12">
 	<name>Rest Api</name>
 	<metadata>
@@ -21,7 +20,7 @@
         	<q:and>
 	            <q:equal>
 	                <q:path>c:connectorType</q:path>
-	                <q:value>com.identicum.connectors.RestUsersConnector</q:value>
+	                <q:value>com.rakkau.connectors.RestUsersConnector</q:value>
 	            </q:equal>
 	            <q:equal>
 	                <q:path>connectorVersion</q:path>
@@ -34,7 +33,7 @@
 	<connectorRef oid="fd099280-a5cc-4598-9a36-ee133a55d8ec" relation="org:default" type="c:ConnectorType"/>
 	-->
 	<connectorConfiguration xmlns:icfc="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/connector-schema-3">
-		<icfc:configurationProperties xmlns:gen513="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/bundle/com.identicum.midpoint.rest-users-connector/com.identicum.connectors.RestUsersConnector">
+		<icfc:configurationProperties xmlns:gen513="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/bundle/com.rakkau.midpoint.rest-users-connector/com.rakkau.connectors.RestUsersConnector">
 			<gen513:trustAllCertificates>true</gen513:trustAllCertificates>
 			<gen513:serviceAddress>http://localhost:8081/</gen513:serviceAddress>
 		</icfc:configurationProperties>
@@ -48,7 +47,6 @@
 		<definition>
 			<xsd:schema xmlns:a="http://prism.evolveum.com/xml/ns/public/annotation-3"
 				xmlns:ra="http://midpoint.evolveum.com/xml/ns/public/resource/annotation-3"
-				xmlns:tns="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3"
 				xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
 				elementFormDefault="qualified"
 				targetNamespace="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3">

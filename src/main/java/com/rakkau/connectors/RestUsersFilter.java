@@ -1,4 +1,4 @@
-package com.identicum.connectors;
+package com.rakkau.connectors;
 
 public class RestUsersFilter
 {

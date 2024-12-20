@@ -1,4 +1,4 @@
-package com.identicum.connectors;
+package com.rakkau.connectors;
 
 import com.evolveum.polygon.rest.AbstractRestConfiguration;
 

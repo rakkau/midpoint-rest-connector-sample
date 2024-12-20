@@ -1,4 +1,4 @@
-package com.identicum.connectors;
+package com.rakkau.connectors;
 
 import org.identityconnectors.common.logging.Log;
 import org.identityconnectors.framework.common.objects.Attribute;

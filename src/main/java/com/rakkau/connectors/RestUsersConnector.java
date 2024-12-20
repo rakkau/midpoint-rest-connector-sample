@@ -1,4 +1,4 @@
-package com.identicum.connectors;
+package com.rakkau.connectors;
 
 import java.io.IOException;
 import java.util.List;
@@ -51,7 +51,7 @@ import org.json.JSONObject;
 import com.evolveum.polygon.rest.AbstractRestConnector;
 
 
-@ConnectorClass(displayNameKey = "connector.identicum.rest.display", configurationClass = RestUsersConfiguration.class)
+@ConnectorClass(displayNameKey = "connector.rakkau.rest.display", configurationClass = RestUsersConfiguration.class)
 public class RestUsersConnector 
 	extends AbstractRestConnector<RestUsersConfiguration> 
 	implements CreateOp, UpdateOp, SchemaOp, SearchOp<RestUsersFilter>, DeleteOp, UpdateAttributeValuesOp, TestOp, TestApiOp

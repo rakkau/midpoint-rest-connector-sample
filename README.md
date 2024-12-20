@@ -7,20 +7,20 @@ A sample Rest Connector for midPoint implementing the Rest Connector Superclass 
 1. Clone this repository
 
 ```
-git clone git@github.com:Identicum/rest-users-connector.git
+git clone git@github.com:rakkau/midpoint-rest-connector-sample.git
 ```
 
 2. Compile the sources and run the application
 
 ```
-cd rest-users-connector
+cd midpoint-rest-connector-sample
 mvn clean package
 ```
 
 3. Copy the connector jar to the midpoint folder
 
 ```
-cp target/rest-users-connector-0.0.X-SNAPSHOT.jar $MIDPOINT_HOME/var/icf-connectors/
+cp target/midpoint-rest-connector-sample-0.0.X-SNAPSHOT.jar $MIDPOINT_HOME/var/icf-connectors/
 ```
 
 4. Restart midPoint
@@ -30,6 +30,6 @@ cp target/rest-users-connector-0.0.X-SNAPSHOT.jar $MIDPOINT_HOME/var/icf-connect
 
 # References
 
-* Rest Users Api: https://github.com/Identicum/rest-users-api
+* Rest Users Api: https://github.com/rakkau/rest-users-api
 * Rest Connector Superclass: https://wiki.evolveum.com/display/midPoint/REST+Connector+Superclass 
 * Rest Resource Example: https://github.com/Evolveum/midpoint/tree/master/samples/resources/rest

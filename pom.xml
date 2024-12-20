@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.identicum.midpoint</groupId>
+	<groupId>com.rakkau.midpoint</groupId>
 	<artifactId>rest-users-connector</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
  
@@ -13,7 +13,7 @@
 	</parent>
  
 	<properties>
-		<connectorPackage>com.identicum.connectors</connectorPackage>
+		<connectorPackage>com.rakkau.connectors</connectorPackage>
 		<connectorClass>RestUsersConnector</connectorClass>
 	    <maven.compiler.source>1.8</maven.compiler.source>
 	    <maven.compiler.target>1.8</maven.compiler.target>
